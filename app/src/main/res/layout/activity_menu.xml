@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/codiva"
+    tools:context="com.example.jorge.tadm_proyectounidad2_obras_jorgedanielrubio.menu">
+    <Button
+        android:id="@+id/btnTrabajadores"
+        android:layout_width="222dp"
+        android:layout_height="76dp"
+        android:layout_gravity="center"
+        android:layout_marginEnd="8dp"
+        android:layout_marginStart="8dp"
+        android:textColor="@color/cardview_light_background"
+        android:layout_marginTop="88dp"
+        android:background="@color/cardview_shadow_start_color"
+        android:text="trabajadores"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+
+    <Button
+        android:id="@+id/btnObras"
+        android:layout_width="219dp"
+        android:layout_height="79dp"
+        android:layout_gravity="center"
+        android:layout_marginEnd="8dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="72dp"
+        android:textColor="@color/cardview_light_background"
+        android:background="@color/cardview_shadow_start_color"
+        android:text="Obras"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/btnTrabajadores" />
+</android.support.constraint.ConstraintLayout>
